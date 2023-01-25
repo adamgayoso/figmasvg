@@ -1,6 +1,6 @@
-import os
-
 import click
+from reportlab.graphics import renderSVG
+from svglib.svglib import svg2rlg
 
 
 @click.command()
@@ -8,5 +8,5 @@ import click
 def convert(files):
     """Simple program that converts pdfs to svgs using inkscape."""
     for filename in files:
-        # Run the inkscape command
-        os.system(f"inkscape {filename} -l --export-filename={filename[:-4]}.svg")
+        drawing = svg2rlg(filename)
+        renderSVG.drawToFile(drawing, filename)

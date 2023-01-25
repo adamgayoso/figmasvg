@@ -1,5 +1,5 @@
 name: Feature request
-description: Propose a new feature for inkpdf2svg
+description: Propose a new feature for figmasvg
 labels: enhancement
 body:
     - type: textarea
