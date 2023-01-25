@@ -5,10 +5,14 @@ Use inkscape to convert pdfs to svgs
 ## Getting started
 
 ```bash
-figmasvg -- path/to/*.pdf
+figmasvg -- path/to/*.svg
 ```
 
 The above command will overwrite the svgs with a new version that has been reformated to work well in Figma.
+
+Matplotlib figures should be saved with `{"svg.fonttype": "none"}`, which can be done in a matplotlib context, or editing the rcParams.
+
+````bash
 
 ## Installation
 
@@ -22,7 +26,8 @@ There are several alternative options to install figmasvg:
 
 ```bash
 pip install figmasvg
-```
+````
+
 -->
 
 1. Install the latest development version:
