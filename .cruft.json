@@ -1,0 +1,23 @@
+{
+    "template": "https://github.com/scverse/cookiecutter-scverse",
+    "commit": "7cc5403b05e299d7a4bb169c2bd8c27a2a7676f3",
+    "checkout": null,
+    "context": {
+        "cookiecutter": {
+            "project_name": "inkpdf2svg",
+            "package_name": "inkpdf2svg",
+            "project_description": "Use inkscape to convert pdfs to svgs",
+            "author_full_name": "Adam Gayoso",
+            "author_email": "adamgayoso@gmail.com",
+            "github_user": "adamgayoso",
+            "project_repo": "https://github.com/adamgayoso/inkpdf2svg",
+            "license": "BSD 3-Clause License",
+            "_copy_without_render": [
+                ".github/workflows/**.yaml",
+                "docs/_templates/autosummary/**.rst"
+            ],
+            "_template": "https://github.com/scverse/cookiecutter-scverse"
+        }
+    },
+    "directory": null
+}
