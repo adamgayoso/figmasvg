@@ -1,12 +1,5 @@
 # inkpdf2svg
 
-[![Tests][badge-tests]][link-tests]
-[![Documentation][badge-docs]][link-docs]
-
-[badge-tests]: https://img.shields.io/github/actions/workflow/status/adamgayoso/inkpdf2svg/test.yaml?branch=main
-[link-tests]: https://github.com/adamgayoso/inkpdf2svg/actions/workflows/test.yml
-[badge-docs]: https://img.shields.io/readthedocs/inkpdf2svg
-
 Use inkscape to convert pdfs to svgs
 
 ## Getting started
