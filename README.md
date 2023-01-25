@@ -8,9 +8,7 @@ Use inkscape to convert pdfs to svgs
 figmasvg -- path/to/*.pdf
 ```
 
-The above command will put svgs with the same name as the pdfs in the same directory. Under the hood, it uses `inkscape` to convert the pdfs to svgs.
-
-`inkscape` can be installed via homebrew if you are on a mac.
+The above command will overwrite the svgs with a new version that has been reformated to work well in Figma.
 
 ## Installation
 
