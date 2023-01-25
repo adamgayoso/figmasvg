@@ -9,4 +9,4 @@ def convert(files):
     """Simple program that converts pdfs to svgs using inkscape."""
     for filename in files:
         # Run the inkscape command
-        os.system(f"inkscape {filename} ---export-filename={filename[:-4]}.svg")
+        os.system(f"inkscape {filename} -l --export-filename={filename[:-4]}.svg")
