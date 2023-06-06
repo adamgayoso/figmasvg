@@ -1,23 +1,23 @@
 {
-    "template": "https://github.com/scverse/cookiecutter-scverse",
-    "commit": "7cc5403b05e299d7a4bb169c2bd8c27a2a7676f3",
-    "checkout": null,
-    "context": {
-        "cookiecutter": {
-            "project_name": "figmasvg",
-            "package_name": "figmasvg",
-            "project_description": "Use inkscape to convert pdfs to svgs",
-            "author_full_name": "Adam Gayoso",
-            "author_email": "adamgayoso@gmail.com",
-            "github_user": "adamgayoso",
-            "project_repo": "https://github.com/adamgayoso/figmasvg",
-            "license": "BSD 3-Clause License",
-            "_copy_without_render": [
-                ".github/workflows/**.yaml",
-                "docs/_templates/autosummary/**.rst"
-            ],
-            "_template": "https://github.com/scverse/cookiecutter-scverse"
-        }
-    },
-    "directory": null
+  "template": "https://github.com/scverse/cookiecutter-scverse",
+  "commit": "7b5b86f3b44d9d6b387ecaa934ad4b52780dc96a",
+  "checkout": "main",
+  "context": {
+    "cookiecutter": {
+      "project_name": "figmasvg",
+      "package_name": "figmasvg",
+      "project_description": "Use inkscape to convert pdfs to svgs",
+      "author_full_name": "Adam Gayoso",
+      "author_email": "adamgayoso@gmail.com",
+      "github_user": "adamgayoso",
+      "project_repo": "https://github.com/adamgayoso/figmasvg",
+      "license": "BSD 3-Clause License",
+      "_copy_without_render": [
+        ".github/workflows/**.yaml",
+        "docs/_templates/autosummary/**.rst"
+      ],
+      "_template": "https://github.com/scverse/cookiecutter-scverse"
+    }
+  },
+  "directory": null
 }
